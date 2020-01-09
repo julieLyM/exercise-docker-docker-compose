@@ -5,8 +5,7 @@ services:
         build:
             context: . 
             dockerfile: ./node.Dockerfile
-        ports:
-            - 8081:5000
+       
 
     nginx:
         build:
